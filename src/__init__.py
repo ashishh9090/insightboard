@@ -1,0 +1,1 @@
+"""InsightBoard source package."""
