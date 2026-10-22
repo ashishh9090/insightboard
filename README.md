@@ -19,6 +19,17 @@ InsightBoard bridges this gap with:
 
 ---
 
+## 🎥 Application Walkthrough & Demo
+
+> **Interactive Video Walkthrough**: [▶️ View / Download Walkthrough (`insight_board_demo.mp4`)](assets/insight_board_demo.mp4)
+
+The demo showcases:
+- **Zero-Setup Ingestion**: Loading bundled datasets (E-Commerce, SaaS, Marketing) and uploading raw files with Pandera quality gating.
+- **Dynamic Exploration**: Plotly time-series with day/week/month aggregation, dimension breakdowns, and distribution analysis.
+- **Role-Based Switching**: Moving seamlessly from high-level Executive KPI summaries to the Analyst deep-dive with SQL query previews and CSV exports.
+
+---
+
 ## 🏗️ Architecture
 
 ```mermaid
@@ -74,7 +85,7 @@ Measured on Apple Silicon / Streamlit Community Cloud with the bundled 5,000-row
 
 ### 1. Clone & Set Up Virtual Environment
 ```bash
-git clone https://github.com/your-username/insightboard.git
+git clone https://github.com/ashishh9090/insightboard.git
 cd insightboard
 
 python3 -m venv .venv

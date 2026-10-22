@@ -703,7 +703,7 @@ def main() -> None:
         """
         <div style="text-align: center; color: #475569; font-size: 0.75rem; margin-top: 2rem; padding: 1rem;">
             InsightBoard · Built with Streamlit, Pandas & Plotly ·
-            <a href="https://github.com" style="color: #6366F1;">GitHub</a>
+            <a href="https://github.com/ashishh9090/insightboard" target="_blank" style="color: #6366F1;">GitHub</a>
         </div>
         """,
         unsafe_allow_html=True,
