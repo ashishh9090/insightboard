@@ -19,17 +19,6 @@ InsightBoard bridges this gap with:
 
 ---
 
-## 🎥 Application Walkthrough & Demo
-
-> **Interactive Video Walkthrough**: [▶️ View / Download Walkthrough (`insight_board_demo.mp4`)](assets/insight_board_demo.mp4)
-
-The demo showcases:
-- **Zero-Setup Ingestion**: Loading bundled datasets (E-Commerce, SaaS, Marketing) and uploading raw files with Pandera quality gating.
-- **Dynamic Exploration**: Plotly time-series with day/week/month aggregation, dimension breakdowns, and distribution analysis.
-- **Role-Based Switching**: Moving seamlessly from high-level Executive KPI summaries to the Analyst deep-dive with SQL query previews and CSV exports.
-
----
-
 ## 🏗️ Architecture
 
 ```mermaid
@@ -144,6 +133,3 @@ All pushes and pull requests trigger `.github/workflows/ci.yml`, running Ruff, B
 - [ ] **Saved Views & Alerts**: Allow analysts to save custom filter combinations and subscribe to webhook/Slack alerts when metrics breach thresholds.
 
 ---
-
-## 📜 License
-MIT License. Created by Senior Analytics & Software Engineer.
